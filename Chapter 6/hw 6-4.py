@@ -1,4 +1,4 @@
-# chapter 6 homework 6-3
+# Chapter 6 Homework 6-4
 
 python_words = {
     "list" : "A list is a set of items in a particular order.",
@@ -7,13 +7,5 @@ python_words = {
     "if statements" : "If statements identify when the conditions you want are present.",
     "dictionary" : "Dictionarys alow you to have two kinds of information, keys and values."
 }
-meaning = python_words['list']
-print(f"{meaning}")
-meaning = python_words['tuples']
-print(f"{meaning}")
-meaning = python_words['range']
-print(f"{meaning}")
-meaning = python_words['if statements']
-print(f"{meaning}")
-meaning = python_words['dictionary']
-print(f"{meaning}")
+for word, meaning in python_words.items():
+    print(f"A {word.title()}'s meaning = {meaning}")
